@@ -1,13 +1,20 @@
 // import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import TrackCard from './components/TrackCard';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import LyricsPage from './components/LyricsPage';
 
 function App() {
+
   return (
     <div className="App">
-      <p className='text'>Search Lyrics</p>
-      <p className='text'>Use API to Fetch results</p>
-      <TrackCard ></TrackCard>
+      <Router>
+        <Routes>
+          <Route path='/' element={ <Home /> } />
+          <Route path='/lyrics' element={ <LyricsPage /> } />
+        </Routes>
+      </Router>
     </div>
   );
 }

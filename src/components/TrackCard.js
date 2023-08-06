@@ -1,12 +1,13 @@
-
+import React from "react";
 
 function TrackCard() {
 
     return (
-        <div>
+        <div className="TrackCard">
+            <h3>Band Name</h3>
             <p>Track: Track Name</p>
             <p>Album: Album Name</p>
-            <p className="text">This is a Track Card</p>
+            <a className="TrackCard-link" href="/lyrics">View Lyrics</a>
         </div>
     )
 }
