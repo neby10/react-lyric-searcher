@@ -13,7 +13,7 @@
     - search title
     - search bar
     - search button
-
+- utilize tailwind css maybe??
 
 # Later
 
@@ -27,3 +27,5 @@ Sunday August 6, 2023
 - skeleton of main page, track card
 - installed axios and react-router-dom
 - implemented Home and LyricsPage utilizing react-router-dom
+- created API account for musixmatch, added url to axios and get request works
+- top tracks retrieval and display is functional
