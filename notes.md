@@ -3,24 +3,17 @@
 
 
 # Now
-- skeleton site
-    - track card
-    - individual card page design
-- react routing
-    - Main page
-    - Unique Card Page
-- search
-    - search title
-    - search bar
-    - search button
+- individual card page design and lyrics display
+- add search by lyrics
 - utilize tailwind css maybe??
+- extend react app functionality utilizing other query input parameters: https://developer.musixmatch.com/documentation/input-parameters
 
 # Later
 
 
 # Completed
 Monday August 7, 2023
--
+-added a NavBar then decided against it and deleted it
 
 Sunday August 6, 2023
 - initialized app

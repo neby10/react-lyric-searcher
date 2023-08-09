@@ -7,7 +7,7 @@ function SearchButton(props) {
         <button 
             className="SearchButton"
             onClick={onClick}>
-            Search Lyrics Button
+            Get Tracks!
         </button>
     )
 }

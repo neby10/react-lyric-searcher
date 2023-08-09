@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={ <Home /> } />
-          <Route path='/lyrics' element={ <LyricsPage /> } />
+          <Route path='/lyrics/:track_id' element={ <LyricsPage /> } />
         </Routes>
       </Router>
     </div>
